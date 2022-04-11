@@ -115,8 +115,7 @@ h3 {
   color: #222831;
   font-size: 30px;
   font-weight: thin;
-  line-height: 50px
-  letter-spacing: 
+  line-height: 50px;
   user-select: none;
   display: none;
   flex-direction: column;
