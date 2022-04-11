@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fizz Buzz</title>
+    <title>Rock Papper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 <body>
-
+    <div class="container-1">
+        <div class="header">
+          <h1>Rock Paper Scissors</h1>
+        </div>
+      
+        <div class="container-2">
+          <div class="instructions">
+            <h2 class="match-result">Choose your weapon:</h2>
+            <h3 class="match-comment">First to score 5 points wins the game!</h3>
+          </div>
+          <div class="score">
+            <div class="user">
+              <p class="user-play"> ? </p>
+              <p> Player: <span class="user-score"> 0 </span></p>
+            </div>
+            <div class="computer">
+              <p class="computer-play"> ? </p>
+              <p> Computer :<span class="computer-score"> 0 </span></p>
+            </div>
+          </div>
+          <div class="userWeapon">
+            <button data-weapon="rock" class="weaponbtn" id="rock"> 👊 </button>
+            <button data-weapon="paper" class="weaponbtn" id="paper"> 🤚 </button>
+            <button data-weapon="scissors" class="weaponbtn" id="scissors"> 🖖 </button>
+          </div>
+        </div>
+      
+        <div class="footer">
+          <p> PA Games </p>
+        </div>
+        <div class="modal">
+          <p class="modal-title"> You Won! <br> You: 5 x Computer: 4</p>
+          <button class="btn-restart">Play again</button>
+        </div>
+        <div class="overlay"></div>
+      </div>
+  <script src="script.js"></script>      
 </body>
 </html>

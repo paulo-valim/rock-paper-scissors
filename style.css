@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Carter+One&family=Didact+Gothic&family=Gochi+Hand&family=Jura:wght@500&family=Lalezar&family=Martel+Sans&family=Press+Start+2P&family=Righteous&family=Roboto+Mono:wght@700&family=Rock+Salt&family=Sriracha&display=swap");
+
+body {
+  margin: 0px;
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #222831;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  color: #222831;
+  background-color: #fac650;
+  font-family: "Sriracha", cursive;
+  font-size: 30px;
+}
+
+.container-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 900px;
+}
+
+.instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Carter One";
+  color: white;
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+h3 {
+  margin-top: -25px;
+}
+
+.score {
+  display: flex;
+  justify-content: center;
+  font-family: "Rock Salt";
+  color: white;
+  font-size: 18px;
+  margin-top: 30px;
+}
+
+.user,
+.computer {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+}
+
+.computer-play,
+.user-play {
+  font-family: "Martel Sans";
+  font-size: 100px;
+  font-weight: 900;
+  margin: -30px 0 -40px 0;
+}
+
+.userWeapon {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.userWeapon button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0;
+  border-radius: 15px;
+  padding: 30px 50px;
+  margin: 0px 15px;
+  font-size: 90px;
+  background-color: #393e46;
+  transition: all 0.07s ease;
+}
+
+.playing {
+  transform: scale(1.05);
+  border-color: #ffc600;
+  box-shadow: 0 0 1rem #ffc600;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  font-family: "Press Start 2P";
+  color: #fac650;
+  font-size: 30px;
+}
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  padding: 0px 50px 30px ;
+  top: 30%;
+  overflow: auto;
+  border-radius: 10px;
+  background-color: #fac650;
+  text-align: center;
+  font-family: "Carter One";
+  color: #222831;
+  font-size: 30px;
+  font-weight: thin;
+  line-height: 50px
+  letter-spacing: 
+  user-select: none;
+  display: none;
+  flex-direction: column;
+  align-self: center;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.6;
+}
+
+.btn-restart {
+  padding: 10px 40px;
+  border: none;
+  font-size: 30px;
+  font-family: "Sriracha";
+  color: #fac650;
+  background-color: #222831;
+}
